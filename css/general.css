@@ -1,0 +1,37 @@
+html {
+  margin: 0;
+  padding: 0;
+  background-color: #e2e2e2;
+  font: normal 100%/1.4 Georgia, serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.flex-img {
+  display:block;
+  width: 100%;
+
+}
+
+.grid {
+  border: 1px solid red;
+  overflow: hidden;
+}
+
+.unit {
+  background-color: #fff;
+  float: left;
+  width: 33.333333%;
+
+}
+.unit-spacer {
+  padding: 1em;
+}
+
+.unit-2-3 {
+  width:66.6667%;
+}
+
