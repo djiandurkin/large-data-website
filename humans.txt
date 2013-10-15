@@ -1,0 +1,21 @@
+# humanstxt.org
+
+# TEAM
+
+Designer & Developer: Ian Durkin <dj.iandurkin@gmail.com>
+Site: http://iandurkindesign.ca
+GitHub: https://github.com/djiandurkin
+Twitter: @iandurkin
+Location: Ottawa, Canada
+
+---
+
+# TECHNOLOGY
+
+## Software
+
+- Sublime Text 2
+- Git + GitHub
+- Markdown
+
+

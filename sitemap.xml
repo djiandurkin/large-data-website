@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <url>
+
+      <loc>http://www.hmdb.com</loc>
+
+      <lastmod>2013-10-14</lastmod>
+
+
+      <changefreq>Weekly</changefreq>
+      <!--
+        Yearly, Monthly, Daily, Hourly, Always, Never
+        -->
+      <priority>1.0</priority>
+      <!--
+        Priority: How important your page is between 0.1-1.0 default 0.5
+        -->
+   </url>
+
+   <url>
+
+
+</urlset>

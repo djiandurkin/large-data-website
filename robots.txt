@@ -1,0 +1,9 @@
+
+
+#The path to tfind our sitemap file
+Sitemap: http://dinosaurs.com/sitemap.xml
+
+User-Agent: *
+Disallow:
+
+#
