@@ -101,6 +101,14 @@ nav a{
   font-weight: 400;
   padding-right:2em;
   margin-top: 3.25em;
+  display: inline-block;
+  text-align: center;
+  text-shadow: 1px 1px 0px #283744;
+
+}
+
+nav a:hover {
+  color: #4497fc;
 }
 
 h2 {
@@ -162,6 +170,20 @@ input {
   color: #000;
   float: right;
   margin-right:3em;
+}
+
+.media {
+  overflow:hidden;
+}
+
+.media-img {
+  float: left;
+  margin-right:10px;
+}
+.media-img-reverse {
+  float: right;
+  margin-right:0;
+  margin-left: 10px;
 }
 
 @media only screen and (max-width: 20em) {
