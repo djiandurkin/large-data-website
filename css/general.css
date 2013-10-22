@@ -73,6 +73,11 @@ display:inline-block;
 float:left;
 }
 
+.logo a {
+  text-decoration: none;
+  color:white;
+}
+
 .logo img {
   margin-top:3em;
   display: inline-block;
@@ -185,6 +190,62 @@ input {
   margin-right:0;
   margin-left: 10px;
 }
+
+.icon-wrapper {
+  color: #339;
+  text-decoration: none;
+
+}
+
+.icon {
+  display: inline-block;
+  background: transparent none no-repeat left top;
+  /*background: background-color background -image background--repeat background-position;*/
+  /*ALWAYS FOLLOW THIS ORDER MANNNNNNNNNNNNNNNNNNNNNNNNN*/
+  background-size: contain;
+  vertical-align: middle;
+
+}
+
+.icon-label {
+  border-bottom: 1px solid rgba(51, 51, 153, 0.5);
+  color:white;
+
+}
+
+.i-16 {
+  height: 16px;
+  width: 16px;
+}
+
+.i-32 {
+  height: 32px;
+  width: 32px;
+
+}
+
+.i-twitter {
+  background-image: url("../img/icons/i-twitter.svg");
+
+}
+
+.i-facebook {
+  background-image: url("../img/icons/i-facebook.svg");
+
+}
+
+.i-googleplus {
+  background-image: url("../img/icons/i-googleplus.svg");
+
+}
+
+.i-pintrest {
+  background-image: url("../img/icons/i-pinterest.svg");
+
+}
+
+
+
 
 @media only screen and (max-width: 20em) {
   .main-image {
