@@ -33,17 +33,17 @@
   </head>
 
 <body>
-  <header>
+   <header role="banner">
     <div class="logo">
        <a href="index.html" rel="home"><img src="../img/logo.png" alt="logo"></a>
     </div>
-    <nav class="clearfix">
-      <ul class="clearfix">
+    <nav role="navigation" class="clearfix">
+      <ul class="skiplinks">
       <a href="">Music</a>
-      <a href="">Genres</a>
-      <a href="">Artists</a>
-      <a href="">History</a>
-      <a href="#about">About</a>
+      <a href="/chicago.html">Genres</a>
+      <a href="/derrick.html">Artists</a>
+      <a href="/history.html">History</a>
+      <a href="#main">About</a>
     </nav>
   </header>
 
@@ -59,7 +59,7 @@
   <div class="content">
   <div class="grid">
     <div class="unit unit-s-1 unit-m-2-3 unit-l-2-3">
-      <div class="unit-spacer">
+      <div class="unit-spacer" role="main" id="main">
       <h2>Welcome to the House Music Database</h2>
       <p>Here at <strong>HMDB</strong>, we strive to be housekeepers. The ones who maintain a recorded history of the music that we cherish, and that has spawned a worldwide love for all things house. Not everyone understands house music. It's a <em>spiritual</em> thing. A <em>body</em> thing. A <em>soul</em> thing.</p>
 
@@ -70,14 +70,14 @@
       </div>
   </div>
 </div>
-<h2>Featured Artists</h2>
+<h2 role="complementary" class="clearfix" id="complementary">Featured Artists</h2>
 
   <div class="grid">
     <div class="unit unit-s-1 unit-m-1 unit-l-2-3">
       <div class="unit-spacer">
-      <img src="../img/2.jpg" alt="featured dj derrick carter" class="feat-flex-img">
+      <a href="/derrick.html"><img src="../img/2.jpg" alt="featured dj derrick carter" class="feat-flex-img">
       <img src="../img/3.jpg" alt="featured dj mark farina" class="feat-flex-img">
-      <img src="../img/4.jpg" alt="featured dj dj sneak" class="feat-flex-img">
+      <img src="../img/4.jpg" alt="featured dj dj sneak" class="feat-flex-img"></a>
       </div>
     </div>
 
@@ -103,7 +103,7 @@
         </ul>
       </div>
       <div class="unit unit-s-hidden unit-m-1-3 unit-l-1-3">
-       <ul class="list-group">
+       <ul class="list-group" role="complementary" id="complementary">
 
     <li class="list-group-item-inline">
       <a href="http://www.twitter.com" class="icon-wrapper" rel="external">
