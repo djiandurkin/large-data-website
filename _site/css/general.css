@@ -4,6 +4,10 @@
 @-webkit-viewport {width: device-width; scale: 1;}
 @viewport {width: device-width; scale: 1;}
 
+img {
+  border:0;
+
+}
 
 * {
   -moz-box-sizing: border-box;
